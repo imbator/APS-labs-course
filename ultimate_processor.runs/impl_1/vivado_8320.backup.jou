@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Sep 13 17:08:20 2022
+# Process ID: 8320
+# Current directory: D:/8200434/Processors/ultimate_processor.runs/impl_1
+# Command line: vivado.exe -log source.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source source.tcl -notrace
+# Log file: D:/8200434/Processors/ultimate_processor.runs/impl_1/source.vdi
+# Journal file: D:/8200434/Processors/ultimate_processor.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source source.tcl -notrace

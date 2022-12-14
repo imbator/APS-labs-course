@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Nov 22 14:13:37 2022
+# Process ID: 2584
+# Current directory: E:/APS_Lab3/Processors
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11136 E:\APS_Lab3\Processors\ultimate_processor.xpr
+# Log file: E:/APS_Lab3/Processors/vivado.log
+# Journal file: E:/APS_Lab3/Processors\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/APS_Lab3/Processors/ultimate_processor.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb_decoder_riscv_obf.tcl
+run 10 us
+run 10 us
+close_sim

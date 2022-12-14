@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Dec  5 12:26:56 2022
+# Process ID: 4868
+# Current directory: C:/Processors
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9772 C:\Processors\ultimate_processor.xpr
+# Log file: C:/Processors/vivado.log
+# Journal file: C:/Processors\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Processors/ultimate_processor.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_decoder_riscv_obf.tcl
+run 10 us
+run 10 us
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Processors/ultimate_processor.srcs/sim_1/new/top_tb.sv w ]
+add_files -fileset sim_1 C:/Processors/ultimate_processor.srcs/sim_1/new/top_tb.sv
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+close_sim
+launch_simulation
+launch_simulation
+source top_tb.tcl
+restart
+run 10 us
+restart
+run 10 us
+relaunch_sim
+relaunch_sim
+restart
+run 10 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+run 10 us
+relaunch_sim
+run 10 us
+restart
+run 100 us
